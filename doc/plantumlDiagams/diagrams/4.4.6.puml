@@ -1,0 +1,11 @@
+@startuml
+Admin o-> System: натискає кнопку “Обрати dataset”
+System -> Admin:надсилає список dataset
+Admin -> System:обирає dataset із списку
+System -> Admin:надсилає список зареєєстрованих користувачів
+Admin -> System:обирає необхідного  користувача
+System ->Admin:надсилає список прав
+Admin ->Admin:обирає необхідні права
+Admin ->System: натискає кнопку "Зберегти"
+System -> Admin:повідомляє про надання прав зареєстрованому користувачу
+@enduml

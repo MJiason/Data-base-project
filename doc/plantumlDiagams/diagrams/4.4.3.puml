@@ -1,0 +1,7 @@
+@startuml
+RegisteredUser o-> System: натискає кнопку створити dataset
+System ->RegisteredUser: надсилає форму для створення dataset
+RegisteredUser -> RegisteredUser:заповнює форму та встановлює зв’язки
+RegisteredUser -> System: натискає кнопку “Зберегти”
+System ->o RegisteredUser:надсилає повідомлення про успішне збереження
+@enduml

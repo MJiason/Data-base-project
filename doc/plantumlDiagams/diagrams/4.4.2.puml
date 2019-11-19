@@ -1,0 +1,10 @@
+@startuml
+RegisteredUser O-> System:здійснює пошук dataset за допомогою пошукового рядка або пошукових фільтрів
+System->RegisteredUser:надає результати пошукового запиту
+RegisteredUser -> System:обирає dataset для заповнення
+System->RegisteredUser:відкриває обраний dataset
+RegisteredUser->RegisteredUser:користувач заповнює dataset
+RegisteredUser ->System:натискає кнопку “Зберегти”
+System ->o RegisteredUser:повідомляє про успішне збереження даних
+
+@enduml

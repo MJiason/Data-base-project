@@ -1,0 +1,7 @@
+@startuml
+User o->System: Вводить повну або скорочену назву dataset
+User->System: Налаштовує пошукові фільтри та натискає кнопку “Пошук”
+System->User: Надає пошукові результати
+User->System:Обирає потрібний dataset
+System ->o User:Надає інформацію користувачеві
+@enduml
